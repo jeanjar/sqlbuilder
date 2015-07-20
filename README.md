@@ -4,6 +4,14 @@ _Copyright 2014, Mihail Milushev <<mihail.milushev@lanzz.org>>_
 SQL Builder gives you a Python syntax for describing SQL queries, which then can be evaluated to a `template, (arg1, arg2, ...)` tuple for execution by your database backend.
 
 ---
+###
+
+to use into a virtualenv with pip
+after activate your virtualenv:
+```sh
+user@machine pip install -e git+http://github.com/jeanjar/sqlbuilder.git#egg=sqlbuilder
+```
+
 
 ### Examples
 
